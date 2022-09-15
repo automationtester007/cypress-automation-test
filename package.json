@@ -1,0 +1,21 @@
+{
+  "name": "presta1.6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress_open": "./node_modules/.bin/cypress open",
+    "cypress_run": "./node_modules/.bin/cypress run --config video=false"
+  },
+  "author": "Idrees",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "cypress-social-logins": "^1.14.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "typescript": "^4.8.3"
+  }
+}
